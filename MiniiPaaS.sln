@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniiPaaS.API", "MiniiPaaS.API\MiniiPaaS.API.csproj", "{245068C2-0BAC-48CF-AB76-86C48E2C03C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4476A432-7877-4D77-8EF7-CA6632D19078} = {4476A432-7877-4D77-8EF7-CA6632D19078}
+		{64B66731-216C-4A1C-A383-5468229FDA22} = {64B66731-216C-4A1C-A383-5468229FDA22}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniiPaaS.Domain", "MiniiPaaS.Domain\MiniiPaaS.Domain.csproj", "{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniiPaaS.Application", "MiniiPaaS.Application\MiniiPaaS.Application.csproj", "{64B66731-216C-4A1C-A383-5468229FDA22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5191A858-4EEF-4AFE-BFFD-0729BAFB0788} = {5191A858-4EEF-4AFE-BFFD-0729BAFB0788}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniiPaaS.Infrastructure", "MiniiPaaS.Infrastructure\MiniiPaaS.Infrastructure.csproj", "{4476A432-7877-4D77-8EF7-CA6632D19078}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5191A858-4EEF-4AFE-BFFD-0729BAFB0788} = {5191A858-4EEF-4AFE-BFFD-0729BAFB0788}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniiPaaS.Worker", "MiniiPaaS.Worker\MiniiPaaS.Worker.csproj", "{96A4C8B8-2230-4E2D-A026-E478A56BB312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{245068C2-0BAC-48CF-AB76-86C48E2C03C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245068C2-0BAC-48CF-AB76-86C48E2C03C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245068C2-0BAC-48CF-AB76-86C48E2C03C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245068C2-0BAC-48CF-AB76-86C48E2C03C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B66731-216C-4A1C-A383-5468229FDA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B66731-216C-4A1C-A383-5468229FDA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B66731-216C-4A1C-A383-5468229FDA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B66731-216C-4A1C-A383-5468229FDA22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4476A432-7877-4D77-8EF7-CA6632D19078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4476A432-7877-4D77-8EF7-CA6632D19078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4476A432-7877-4D77-8EF7-CA6632D19078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4476A432-7877-4D77-8EF7-CA6632D19078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A4C8B8-2230-4E2D-A026-E478A56BB312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A4C8B8-2230-4E2D-A026-E478A56BB312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A4C8B8-2230-4E2D-A026-E478A56BB312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A4C8B8-2230-4E2D-A026-E478A56BB312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C421CB-18D9-42B6-8EA9-9BD8D6824EE7}
+	EndGlobalSection
+EndGlobal
