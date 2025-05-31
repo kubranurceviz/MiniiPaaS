@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Docker.DotNet" Version="3.125.15" />
     <PackageReference Include="MediatR" Version="12.5.0" />
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="8.0.0" />
   </ItemGroup>
@@ -18,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MiniiPaaS.Domain\MiniiPaaS.Domain.csproj" />
+    <ProjectReference Include="..\MiniiPaaS.Infrastructure\MiniiPaaS.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

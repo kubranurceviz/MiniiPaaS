@@ -1,0 +1,13 @@
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\bin\Debug\net8.0\MiniiPaaS.Worker.deps.json
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\bin\Debug\net8.0\MiniiPaaS.Worker.dll
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\bin\Debug\net8.0\MiniiPaaS.Worker.pdb
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.csproj.AssemblyReference.cache
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.AssemblyInfoInputs.cache
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.AssemblyInfo.cs
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.csproj.CoreCompileInputs.cache
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.sourcelink.json
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.dll
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\refint\MiniiPaaS.Worker.dll
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\MiniiPaaS.Worker.pdb
+C:\Users\kubra\source\repos\MiniiPaaS\MiniiPaaS.Worker\obj\Debug\net8.0\ref\MiniiPaaS.Worker.dll

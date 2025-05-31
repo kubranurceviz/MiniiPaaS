@@ -8,5 +8,5 @@ using MiniiPaaS.Domain.Entities; // Tam namespace path
 
 namespace MiniiPaaS.Application.Commands.User;
 
-// User tipini tam namespace ile belirtin
+
 public record CreateUserCommand(string Email, string Password) : IRequest<MiniiPaaS.Domain.Entities.User>;
