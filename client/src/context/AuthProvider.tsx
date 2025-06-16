@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import type { ReactNode } from "react";
 import axios from "axios";
 import { AuthContext } from "./AuthContext";
@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     if (token) {
-      axios.defaults.headers.common["Authorization"] = Bearer ${token};
+      axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
     } else {
       delete axios.defaults.headers.common["Authorization"];
     }
