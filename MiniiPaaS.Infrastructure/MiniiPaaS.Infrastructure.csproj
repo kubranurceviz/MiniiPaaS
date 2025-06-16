@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MiniiPaaS.Application\MiniiPaaS.Application.csproj" />
     <ProjectReference Include="..\MiniiPaaS.Domain\MiniiPaaS.Domain.csproj" />
   </ItemGroup>
 

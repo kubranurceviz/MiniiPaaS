@@ -1293,9 +1293,9 @@
         "dependencies": {
           "Docker.DotNet": "3.125.15",
           "MediatR": "12.5.0",
+          "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.Extensions.Identity.Core": "8.0.0",
-          "MiniiPaaS.Domain": "1.0.0",
-          "MiniiPaaS.Infrastructure": "1.0.0"
+          "MiniiPaaS.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MiniiPaaS.Application.dll": {}
@@ -1321,6 +1321,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.IdentityModel.Tokens": "8.11.0",
+          "MiniiPaaS.Application": "1.0.0",
           "MiniiPaaS.Domain": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.0",
           "RabbitMQ.Client": "6.4.0",
@@ -3656,6 +3657,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.22.1-Preview.1",
       "MiniiPaaS.Application >= 1.0.0",
+      "MiniiPaaS.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -3693,6 +3695,9 @@
           "projectReferences": {
             "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\MiniiPaaS.Application.csproj": {
               "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\MiniiPaaS.Application.csproj"
+            },
+            "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj"
             }
           }
         }

@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MiniiPaaS.Domain.Entities;
+using MiniiPaaS.Application.Interfaces;
+
 namespace MiniiPaaS.Infrastructure.Data
 {
-    public class MiniIPaaSDbContext : DbContext
+    public class MiniIPaaSDbContext : DbContext, IApplicationDbContext
     {
         public MiniIPaaSDbContext(DbContextOptions<MiniIPaaSDbContext> options) : base(options)
         {

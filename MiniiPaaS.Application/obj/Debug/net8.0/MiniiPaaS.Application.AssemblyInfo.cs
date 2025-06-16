@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniiPaaS.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12cd6d91972030d0c31cdfbf647f21756814820c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44e8d21f130949f11306e3054a0aaf06c0b7337f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniiPaaS.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniiPaaS.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

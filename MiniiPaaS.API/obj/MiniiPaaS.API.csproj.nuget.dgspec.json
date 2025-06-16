@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\MiniiPaaS.Application.csproj": {
                 "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\MiniiPaaS.Application.csproj"
+              },
+              "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj"
               }
             }
           }
@@ -140,9 +143,6 @@
             "projectReferences": {
               "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj": {
                 "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj"
-              },
-              "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj"
               }
             }
           }
@@ -170,6 +170,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
@@ -289,6 +293,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\MiniiPaaS.Application.csproj": {
+                "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\MiniiPaaS.Application.csproj"
+              },
               "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj": {
                 "projectPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj"
               }
