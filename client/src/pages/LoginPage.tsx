@@ -5,8 +5,6 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import "../App.css";
 
-// Font Awesome CDN'i public/index.html'e eklemelisiniz:
-// <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 const LoginPage = () => {
   const { login } = useContext(AuthContext);
@@ -63,9 +61,18 @@ const LoginPage = () => {
             aria-label={showPassword ? "Hide password" : "Show password"}
           >
             {showPassword ? (
-              <i className="fa-regular fa-eye" />
+              // Açık göz SVG
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <ellipse cx="12" cy="12" rx="8" ry="5" stroke="#555" strokeWidth="2"/>
+                <circle cx="12" cy="12" r="2" fill="#555"/>
+              </svg>
             ) : (
-              <i className="fa-regular fa-eye-slash" />
+              // Üstü çizili göz SVG
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <ellipse cx="12" cy="12" rx="8" ry="5" stroke="#555" strokeWidth="2"/>
+                <circle cx="12" cy="12" r="2" fill="#555"/>
+                <line x1="4" y1="20" x2="20" y2="4" stroke="#555" strokeWidth="2"/>
+              </svg>
             )}
           </button>
         </div>

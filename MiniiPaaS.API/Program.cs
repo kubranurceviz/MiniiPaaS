@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using MiniiPaaS.Application.Commands.User;
+using MiniiPaaS.Application.Commands.UserManagement;
 using MiniiPaaS.Application.Interfaces;
 using MiniiPaaS.Domain.Entities;
+using MiniiPaaS.Domain.Enums;
 using MiniiPaaS.Infrastructure.Data;
 using MiniiPaaS.Infrastructure.Services;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,11 +21,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // DbContext ve Interface Enjeksiyonu
-builder.Services.AddDbContext<MiniIPaaSDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
-    new MySqlServerVersion(new Version(8, 0, 0))));
-
-builder.Services.AddScoped<IApplicationDbContext, MiniIPaaSDbContext>();
+builder.Services.AddDbContext<MiniiPaaSDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 0, 41)),
+        mysqlOptions =>
+        {
+            mysqlOptions.SchemaBehavior(MySqlSchemaBehavior.Ignore);
+            mysqlOptions.EnableStringComparisonTranslations(true);
+        }
+    ));
+builder.Services.AddScoped<IApplicationDbContext, MiniiPaaSDbContext>();
 builder.Services.AddScoped<IJwtService, JwtService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 
@@ -44,7 +52,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-builder.Services.AddAuthorization();
+// Yetkilendirme Politikaları
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("SuperAdminOnly", policy => policy.RequireRole(Role.SuperAdmin.ToString()));
+    options.AddPolicy("CompanyAdminOnly", policy => policy.RequireRole(Role.CompanyAdmin.ToString()));
+    options.AddPolicy("SameCompany", policy =>
+        policy.RequireClaim("CompanyId")); 
+});
 
 // MediatR
 builder.Services.AddMediatR(cfg =>

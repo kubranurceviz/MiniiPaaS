@@ -1,5 +1,11 @@
-﻿public class AuthResponse
+﻿using MiniiPaaS.Domain.Enums;
+
+namespace MiniiPaaS.Application.Commands.Responses
 {
-    public string Token { get; set; }
-    public string Email { get; set; }
+    public record AuthResponse(
+        string Email,
+        string Token,
+        Role Role,
+        int CompanyId
+    );
 }

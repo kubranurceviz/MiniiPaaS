@@ -1,25 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// MiniiPaaS.Infrastructure/Data/MiniIPaaSDbContext.cs
 using Microsoft.EntityFrameworkCore;
 using MiniiPaaS.Domain.Entities;
 using MiniiPaaS.Application.Interfaces;
 
 namespace MiniiPaaS.Infrastructure.Data
 {
-    public class MiniIPaaSDbContext : DbContext, IApplicationDbContext
+    public class MiniiPaaSDbContext : DbContext, IApplicationDbContext
     {
-        public MiniIPaaSDbContext(DbContextOptions<MiniIPaaSDbContext> options) : base(options)
+        public MiniiPaaSDbContext(DbContextOptions<MiniiPaaSDbContext> options) : base(options)
         {
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Company> Companies { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
-            // Konfigürasyonlar buraya gelecek
+            builder.Entity<User>()
+                .HasOne(u => u.Company)
+                .WithMany(c => c.Users)
+                .HasForeignKey(u => u.CompanyId);
+        }
+
+        public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            return await base.SaveChangesAsync(cancellationToken);
         }
     }
 }

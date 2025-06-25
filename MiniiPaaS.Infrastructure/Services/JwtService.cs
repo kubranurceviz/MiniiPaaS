@@ -5,10 +5,8 @@ using MiniiPaaS.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MiniiPaaS.Infrastructure.Services;
 
@@ -20,11 +18,12 @@ public class JwtService : IJwtService
 
     public string GenerateToken(User user)
     {
-        var claims = new[]
+        var claims = new List<Claim>
         {
-        new Claim(ClaimTypes.Email, user.Email),
-        new Claim(ClaimTypes.Role, user.Role)
-    };
+            new Claim(ClaimTypes.Email, user.Email),
+            new Claim(ClaimTypes.Role, user.Role.ToString()), // Enum'ı stringe çevir
+            new Claim("CompanyId", user.CompanyId.ToString()) // Yeni: Şirket ID'si
+        };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -37,5 +36,12 @@ public class JwtService : IJwtService
             signingCredentials: creds);
 
         return new JwtSecurityTokenHandler().WriteToken(token);
+    }
+
+    // Token'dan CompanyId çözümlemek için ek metod (Opsiyonel)
+    public int GetCompanyIdFromToken(ClaimsPrincipal user)
+    {
+        var companyIdClaim = user.FindFirst("CompanyId")?.Value;
+        return int.TryParse(companyIdClaim, out var id) ? id : 0;
     }
 }
