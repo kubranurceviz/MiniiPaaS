@@ -14,6 +14,9 @@ namespace MiniiPaaS.Infrastructure.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Company> Companies { get; set; }
 
+        DbSet<Customer> IApplicationDbContext.Customers { get; set; } = default!;
+
+         
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<User>()

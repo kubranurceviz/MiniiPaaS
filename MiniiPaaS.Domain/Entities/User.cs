@@ -17,5 +17,14 @@ namespace MiniiPaaS.Domain.Entities
         public Role Role { get; set; }
         public int CompanyId { get; set; }
         public Company Company { get; set; }
+        // New properties for email confirmation
+        public bool EmailConfirmed { get; set; }
+        public string EmailConfirmationToken { get; set; }
+        public DateTime? EmailConfirmationTokenExpiry { get; set; }
+
+        // Properties for lockout
+        public int AccessFailedCount { get; set; }
+        public DateTime? LockoutEnd { get; set; }
+        public bool LockoutEnabled { get; set; }
     }
 }

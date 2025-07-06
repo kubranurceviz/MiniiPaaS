@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using MiniiPaaS.Application.Commands.Auth;
-using MiniiPaaS.Application.Commands.User;
+using MiniiPaaS.Application.Commands.UserManagement;
 using MiniiPaaS.Domain.Enums;
 
 [ApiController]
@@ -32,5 +32,12 @@ public class AuthController : ControllerBase
     {
         var response = await _mediator.Send(command);
         return Ok(response);
+    }
+
+    [HttpPost("confirm-email")]
+    public async Task<IActionResult> ConfirmEmail(ConfirmEmailCommand command)
+    {
+        var result = await _mediator.Send(command);
+        return Ok(result);
     }
 }

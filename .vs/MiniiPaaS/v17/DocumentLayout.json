@@ -3,84 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|solutionrelative:miniipaas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.infrastructure\\data\\miniipaasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|solutionrelative:miniipaas.infrastructure\\data\\miniipaasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|solutionrelative:miniipaas.infrastructure\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.infrastructure\\data\\miniipaasdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|solutionrelative:miniipaas.infrastructure\\data\\miniipaasdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Migrations\\20250706160024_AddEmailConfirmationAndLockoutFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MiniiPaaS.Infrastructure\\Migrations\\20250706160024_AddEmailConfirmationAndLockoutFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|solutionrelative:miniipaas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\auth\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\auth\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\auth\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\auth\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|solutionrelative:miniipaas.infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|solutionrelative:miniipaas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\usermanagement\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\usermanagement\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\usermanagement\\registeruserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\usermanagement\\registeruserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\models\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\models\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.api\\controllers\\utilscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|solutionrelative:miniipaas.api\\controllers\\utilscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\usermanagement\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\usermanagement\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\auth\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\usermanagement\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\usermanagement\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\responses\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\responses\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|solutionrelative:miniipaas.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|solutionrelative:miniipaas.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|solutionrelative:miniipaas.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|solutionrelative:miniipaas.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96A4C8B8-2230-4E2D-A026-E478A56BB312}|MiniiPaaS.Worker\\MiniiPaaS.Worker.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.worker\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96A4C8B8-2230-4E2D-A026-E478A56BB312}|MiniiPaaS.Worker\\MiniiPaaS.Worker.csproj|solutionrelative:miniipaas.worker\\rabbitmqconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|solutionrelative:miniipaas.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\queries\\getcustomersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\queries\\getcustomersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\crm\\createcustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\crm\\createcustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\crm\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\crm\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.api\\controllers\\utilscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{245068C2-0BAC-48CF-AB76-86C48E2C03C8}|MiniiPaaS.API\\MiniiPaaS.API.csproj|solutionrelative:miniipaas.api\\controllers\\utilscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\usermanagement\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\usermanagement\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\usermanagement\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\usermanagement\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5191A858-4EEF-4AFE-BFFD-0729BAFB0788}|MiniiPaaS.Domain\\MiniiPaaS.Domain.csproj|solutionrelative:miniipaas.domain\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.application\\commands\\crm\\getcustomerhandlercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64B66731-216C-4A1C-A383-5468229FDA22}|MiniiPaaS.Application\\MiniiPaaS.Application.csproj|solutionrelative:miniipaas.application\\commands\\crm\\getcustomerhandlercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|c:\\users\\kubra\\source\\repos\\miniipaas\\miniipaas.infrastructure\\migrations\\20250620121426_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4476A432-7877-4D77-8EF7-CA6632D19078}|MiniiPaaS.Infrastructure\\MiniiPaaS.Infrastructure.csproj|solutionrelative:miniipaas.infrastructure\\migrations\\20250620121426_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,245 +86,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "MiniiPaaS.Infrastructure\\Data\\SeedData.cs",
               "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Data\\SeedData.cs",
               "RelativeToolTip": "MiniiPaaS.Infrastructure\\Data\\SeedData.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T14:37:47.308Z",
+              "WhenOpened": "2025-07-06T16:10:03.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Program.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.API\\Program.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Program.cs",
-              "RelativeToolTip": "MiniiPaaS.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MiniiPaaS.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T14:29:52.17Z",
+              "WhenOpened": "2025-07-01T10:36:59.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MiniiPaaSDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContext.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContext.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContext.cs",
-              "RelativeToolTip": "MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Title": "20250706160024_AddEmailConfirmationAndLockoutFields.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Migrations\\20250706160024_AddEmailConfirmationAndLockoutFields.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Infrastructure\\Migrations\\20250706160024_AddEmailConfirmationAndLockoutFields.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Migrations\\20250706160024_AddEmailConfirmationAndLockoutFields.cs",
+              "RelativeToolTip": "MiniiPaaS.Infrastructure\\Migrations\\20250706160024_AddEmailConfirmationAndLockoutFields.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:41:22.571Z",
+              "WhenOpened": "2025-07-06T16:00:25.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MiniiPaaSDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContextFactory.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContextFactory.cs",
-              "RelativeToolTip": "MiniiPaaS.Infrastructure\\Data\\MiniiPaaSDbContextFactory.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwDQAAAABAAAAAAAAAA==",
+              "Title": "ResetPasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\Auth\\ResetPasswordCommand.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\Auth\\ResetPasswordCommand.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\Auth\\ResetPasswordCommand.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\Auth\\ResetPasswordCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:13:02.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:15:39.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RegisterUserHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserHandler.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserHandler.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserHandler.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserHandler.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:16:33.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Models\\RoleDTO.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Models\\RoleDTO.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Models\\RoleDTO.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Models\\RoleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:55:28.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\appsettings.json",
-              "RelativeDocumentMoniker": "MiniiPaaS.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\appsettings.json",
-              "RelativeToolTip": "MiniiPaaS.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-20T11:32:51.468Z",
+              "WhenOpened": "2025-07-01T13:10:04.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ForgotPasswordCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\Auth\\ForgotPasswordCommand.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\Auth\\ForgotPasswordCommand.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\Auth\\ForgotPasswordCommand.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\Auth\\ForgotPasswordCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T13:09:18.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "MiniiPaaS.Infrastructure\\Services\\JwtService.cs",
               "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Services\\JwtService.cs",
               "RelativeToolTip": "MiniiPaaS.Infrastructure\\Services\\JwtService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwC4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBkAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T11:43:32.501Z",
+              "WhenOpened": "2025-07-01T10:36:16.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UtilsController.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\UtilsController.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.API\\Controllers\\UtilsController.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\UtilsController.cs",
-              "RelativeToolTip": "MiniiPaaS.API\\Controllers\\UtilsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:56:17.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Interfaces\\IApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Interfaces\\IApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Interfaces\\IApplicationDbContext.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Interfaces\\IApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T17:37:05.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\LoginHandler.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\UserManagement\\LoginHandler.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\LoginHandler.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\UserManagement\\LoginHandler.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T18:31:49.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginCommand.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\Auth\\LoginCommand.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\Auth\\LoginCommand.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\Auth\\LoginCommand.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\Auth\\LoginCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T13:47:35.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T22:08:41.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Responses\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Responses\\AuthResponse.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Responses\\AuthResponse.cs",
-              "RelativeToolTip": "MiniiPaaS.Application\\Responses\\AuthResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:15:58.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "IJwtService.cs",
               "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Interfaces\\IJwtService.cs",
               "RelativeDocumentMoniker": "MiniiPaaS.Application\\Interfaces\\IJwtService.cs",
               "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Interfaces\\IJwtService.cs",
               "RelativeToolTip": "MiniiPaaS.Application\\Interfaces\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T11:43:56.954Z",
+              "WhenOpened": "2025-07-01T10:36:30.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "MiniiPaaS.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:16:47.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Enums\\Role.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Domain\\Enums\\Role.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Enums\\Role.cs",
-              "RelativeToolTip": "MiniiPaaS.Domain\\Enums\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T15:01:14.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Entities\\Company.cs",
               "RelativeDocumentMoniker": "MiniiPaaS.Domain\\Entities\\Company.cs",
@@ -336,20 +189,150 @@
               "RelativeToolTip": "MiniiPaaS.Domain\\Entities\\Company.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T14:58:08.021Z",
+              "WhenOpened": "2025-06-28T10:33:30.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RabbitMQConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Worker\\RabbitMQConsumer.cs",
-              "RelativeDocumentMoniker": "MiniiPaaS.Worker\\RabbitMQConsumer.cs",
-              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Worker\\RabbitMQConsumer.cs",
-              "RelativeToolTip": "MiniiPaaS.Worker\\RabbitMQConsumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.API\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "MiniiPaaS.API\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:28:57.896Z",
+              "WhenOpened": "2025-07-01T09:48:22.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "MiniiPaaS.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T10:32:49.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateCustomerHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerHandler.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerHandler.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerHandler.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T10:31:39.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateCustomerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerCommand.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerCommand.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\CRM\\CreateCustomerCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:00:48.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UtilsController.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\UtilsController.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.API\\Controllers\\UtilsController.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.API\\Controllers\\UtilsController.cs",
+              "RelativeToolTip": "MiniiPaaS.API\\Controllers\\UtilsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:48:24.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetCustomersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Queries\\GetCustomersQuery.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Queries\\GetCustomersQuery.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Queries\\GetCustomersQuery.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Queries\\GetCustomersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:01:59.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\UserManagement\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:54:10.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\UserManagement\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T13:51:19.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetCustomerHandlercs.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\CRM\\GetCustomerHandlercs.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Application\\Commands\\CRM\\GetCustomerHandlercs.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Application\\Commands\\CRM\\GetCustomerHandlercs.cs",
+              "RelativeToolTip": "MiniiPaaS.Application\\Commands\\CRM\\GetCustomerHandlercs.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:02:10.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Domain\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Domain\\Enums\\Role.cs",
+              "RelativeToolTip": "MiniiPaaS.Domain\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T10:36:53.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250620121426_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Migrations\\20250620121426_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MiniiPaaS.Infrastructure\\Migrations\\20250620121426_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\kubra\\source\\repos\\MiniiPaaS\\MiniiPaaS.Infrastructure\\Migrations\\20250620121426_InitialCreate.cs",
+              "RelativeToolTip": "MiniiPaaS.Infrastructure\\Migrations\\20250620121426_InitialCreate.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:58:49.638Z",
               "EditorCaption": ""
             }
           ]

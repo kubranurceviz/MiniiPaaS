@@ -1,48 +1,78 @@
-﻿using MediatR;
+﻿// MiniiPaaS.Application/Commands/Auth/LoginHandler.cs
+using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using MiniiPaaS.Application.Commands.Auth;
 using MiniiPaaS.Application.Commands.Responses;
 using MiniiPaaS.Application.Interfaces;
 using MiniiPaaS.Domain.Entities;
+using MiniiPaaS.Domain.Exceptions;
 
-namespace MiniiPaaS.Application.Commands.UserManagement;
-
-public sealed class LoginHandler : IRequestHandler<LoginCommand, AuthResponse>
+namespace MiniiPaaS.Application.Commands.Auth
 {
-    private readonly IApplicationDbContext _context;
-    private readonly IJwtService _jwtService;
-    private readonly IPasswordHasher<User> _passwordHasher;
-
-    public LoginHandler(
-        IApplicationDbContext context,
-        IJwtService jwtService,
-        IPasswordHasher<User> passwordHasher)
+    public class LoginHandler : IRequestHandler<LoginCommand, AuthResponse>
     {
-        _context = context;
-        _jwtService = jwtService;
-        _passwordHasher = passwordHasher;
-    }
+        private readonly IApplicationDbContext _context;
+        private readonly IJwtService _jwtService;
+        private readonly IPasswordHasher<User> _passwordHasher;
 
-    public async Task<AuthResponse> Handle(LoginCommand request, CancellationToken cancellationToken)
-    {
-        var user = await _context.Users
-            .FirstOrDefaultAsync(x => x.Email == request.Email, cancellationToken);
+        public LoginHandler(IApplicationDbContext context, IJwtService jwtService, IPasswordHasher<User> passwordHasher)
+        {
+            _context = context;
+            _jwtService = jwtService;
+            _passwordHasher = passwordHasher;
+        }
 
-        if (user is null)
-            throw new UnauthorizedAccessException("Kullanıcı bulunamadı.");
+        public async Task<AuthResponse> Handle(LoginCommand request, CancellationToken cancellationToken)
+        {
+            var user = await _context.Users.FindAsync(new object[] { request.Email }, cancellationToken);
+            if (user == null)
+            {
+                throw new AuthException("Invalid login attempt");
+            }
 
-        var verificationResult = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, request.Password);
-        if (verificationResult == PasswordVerificationResult.Failed)
-            throw new UnauthorizedAccessException("Geçersiz giriş.");
+            // Check if account is locked
+            if (user.LockoutEnabled && user.LockoutEnd > DateTime.UtcNow)
+            {
+                var remainingTime = user.LockoutEnd.Value - DateTime.UtcNow;
+                throw new AuthException($"Account locked. Try again in {remainingTime.Minutes} minutes.");
+            }
 
-        var token = _jwtService.GenerateToken(user);
+            // Verify password
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, request.Password);
+            if (result != PasswordVerificationResult.Success)
+            {
+                user.AccessFailedCount++;
 
-        return new AuthResponse(
-            Email: user.Email,
-            Token: token,
-            Role: user.Role,
-            CompanyId: user.CompanyId
-        );
+                // Lock account after 5 failed attempts
+                if (user.AccessFailedCount >= 5)
+                {
+                    user.LockoutEnabled = true;
+                    user.LockoutEnd = DateTime.UtcNow.AddMinutes(15);
+                }
+
+                await _context.SaveChangesAsync(cancellationToken);
+                throw new AuthException("Invalid login attempt");
+            }
+
+            // Check if email is confirmed
+            if (!user.EmailConfirmed)
+            {
+                throw new AuthException("Please confirm your email address first");
+            }
+
+            // Reset access failed count on successful login
+            user.AccessFailedCount = 0;
+            user.LockoutEnabled = false;
+            user.LockoutEnd = null;
+            await _context.SaveChangesAsync(cancellationToken);
+
+            var token = _jwtService.GenerateToken(user);
+            return new AuthResponse(
+    user.Email,
+    token,
+    user.Role,
+    user.CompanyId
+);
+            //return new AuthResponse { Token = token, Email = user.Email, Role = user.Role.ToString() };
+        }
     }
 }

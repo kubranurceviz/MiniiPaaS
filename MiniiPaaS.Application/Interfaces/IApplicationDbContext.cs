@@ -8,6 +8,7 @@ namespace MiniiPaaS.Application.Interfaces
     {
         DbSet<User> Users { get; set; }
         DbSet<Company> Companies { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }
